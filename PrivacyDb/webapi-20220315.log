@@ -1,0 +1,381 @@
+[2022-03-15 13:36:52.363 +01:00  INF]  Application Starting up
+[2022-03-15 13:37:09.519 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:37:12.380 +01:00  INF]  Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-15 13:37:12.424 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext1' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:37:12.489 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-15 13:37:13.305 +01:00  INF]  User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-15 13:37:16.284 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-15 13:37:16.285 +01:00  INF]  Hosting environment: Development
+[2022-03-15 13:37:16.285 +01:00  INF]  Content root path: C:\Users\admin\source\repos\PrivacyDb\PrivacyDb
+[2022-03-15 13:37:16.728 +01:00  INF]  Request starting HTTP/1.1 HEAD http://localhost:8177/  
+[2022-03-15 13:37:16.732 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/  
+[2022-03-15 13:37:16.756 +01:00  WRN]  Failed to determine the https port for redirect.
+[2022-03-15 13:37:17.017 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-15 13:37:17.017 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-15 13:37:17.639 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-15 13:37:17.639 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-15 13:37:17.690 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-15 13:37:17.690 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-15 13:37:17.690 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-15 13:37:17.690 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-15 13:37:17.700 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:37:17.700 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:37:17.700 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:37:17.700 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:37:18.505 +01:00  INF]  Executed page /Index in 857.7954ms
+[2022-03-15 13:37:18.505 +01:00  INF]  Executed page /Index in 857.796ms
+[2022-03-15 13:37:18.507 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-15 13:37:18.507 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-15 13:37:18.515 +01:00  INF]  Request finished in 1795.8203ms 200 text/html; charset=utf-8
+[2022-03-15 13:37:18.516 +01:00  INF]  Request finished in 1783.9737ms 200 text/html; charset=utf-8
+[2022-03-15 13:37:18.647 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/css/bootstrap.min.css  
+[2022-03-15 13:37:18.650 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/css/site.css  
+[2022-03-15 13:37:18.651 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+[2022-03-15 13:37:18.651 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+[2022-03-15 13:37:18.753 +01:00  INF]  The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+[2022-03-15 13:37:18.753 +01:00  INF]  The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+[2022-03-15 13:37:18.753 +01:00  INF]  The file /css/site.css was not modified
+[2022-03-15 13:37:18.753 +01:00  INF]  The file /js/site.js was not modified
+[2022-03-15 13:37:18.757 +01:00  INF]  Request finished in 105.9726ms 304 application/javascript
+[2022-03-15 13:37:18.757 +01:00  INF]  Request finished in 106.0628ms 304 application/javascript
+[2022-03-15 13:37:18.757 +01:00  INF]  Request finished in 109.9291ms 304 text/css
+[2022-03-15 13:37:18.758 +01:00  INF]  Request finished in 107.8658ms 304 text/css
+[2022-03-15 13:37:18.810 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery/dist/jquery.min.js  
+[2022-03-15 13:37:18.810 +01:00  INF]  The file /lib/jquery/dist/jquery.min.js was not modified
+[2022-03-15 13:37:18.811 +01:00  INF]  Request finished in 1.0631ms 304 application/javascript
+[2022-03-15 13:41:16.759 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN  
+[2022-03-15 13:41:16.831 +01:00  INF]  Executing endpoint '/ADMIN/Index'
+[2022-03-15 13:41:16.916 +01:00  INF]  Route matched with {page = "/ADMIN/Index", action = "", controller = ""}. Executing page /ADMIN/Index
+[2022-03-15 13:41:16.916 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel1.OnGet - ModelState is "Valid"
+[2022-03-15 13:41:16.918 +01:00  INF]  Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:41:17.024 +01:00  INF]  Executed page /ADMIN/Index in 108.4623ms
+[2022-03-15 13:41:17.024 +01:00  INF]  Executed endpoint '/ADMIN/Index'
+[2022-03-15 13:41:17.025 +01:00  INF]  Request finished in 266.6223ms 200 text/html; charset=utf-8
+[2022-03-15 13:41:20.975 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:8177/ADMIN application/x-www-form-urlencoded 207
+[2022-03-15 13:41:20.978 +01:00  INF]  Executing endpoint '/ADMIN/Index'
+[2022-03-15 13:41:20.978 +01:00  INF]  Route matched with {page = "/ADMIN/Index", action = "", controller = ""}. Executing page /ADMIN/Index
+[2022-03-15 13:41:21.359 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel1.OnPost - ModelState is "Valid"
+[2022-03-15 13:41:21.367 +01:00  INF]  AuthenticationScheme: Cookies signed in.
+[2022-03-15 13:41:21.368 +01:00  INF]  Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+[2022-03-15 13:41:21.369 +01:00  INF]  Executing RedirectResult, redirecting to /ADMIN/ListeDesEnre.
+[2022-03-15 13:41:21.369 +01:00  INF]  Executed page /ADMIN/Index in 390.4797ms
+[2022-03-15 13:41:21.369 +01:00  INF]  Executed endpoint '/ADMIN/Index'
+[2022-03-15 13:41:21.371 +01:00  INF]  Request finished in 398.7918ms 302 
+[2022-03-15 13:41:21.374 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 13:41:21.393 +01:00  INF]  Authorization was successful.
+[2022-03-15 13:41:21.393 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:41:21.410 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 13:41:21.413 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 13:41:21.533 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:41:23.543 +01:00  INF]  Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 13:41:23.716 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 13:41:23.716 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:41:23.716 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:41:23.758 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 2348.2904ms
+[2022-03-15 13:41:23.759 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:41:23.762 +01:00  INF]  Request finished in 2387.5485ms 200 text/html; charset=utf-8
+[2022-03-15 13:41:26.859 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/Create  
+[2022-03-15 13:41:26.875 +01:00  INF]  Authorization was successful.
+[2022-03-15 13:41:26.875 +01:00  INF]  Executing endpoint '/ADMIN/Create'
+[2022-03-15 13:41:26.882 +01:00  INF]  Route matched with {page = "/ADMIN/Create", action = "", controller = ""}. Executing page /ADMIN/Create
+[2022-03-15 13:41:26.887 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.CreateModel.OnGet - ModelState is "Valid"
+[2022-03-15 13:41:26.887 +01:00  INF]  Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:41:27.059 +01:00  INF]  Executed page /ADMIN/Create in 176.9323ms
+[2022-03-15 13:41:27.059 +01:00  INF]  Executed endpoint '/ADMIN/Create'
+[2022-03-15 13:41:27.059 +01:00  INF]  Request finished in 200.1623ms 200 text/html; charset=utf-8
+[2022-03-15 13:41:27.090 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+[2022-03-15 13:41:27.090 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery-validation/dist/jquery.validate.min.js  
+[2022-03-15 13:41:27.091 +01:00  INF]  The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+[2022-03-15 13:41:27.091 +01:00  INF]  The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+[2022-03-15 13:41:27.092 +01:00  INF]  Request finished in 1.7131ms 304 application/javascript
+[2022-03-15 13:41:27.092 +01:00  INF]  Request finished in 1.5594ms 304 application/javascript
+[2022-03-15 13:41:32.160 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:8177/ADMIN/Create application/x-www-form-urlencoded 243
+[2022-03-15 13:41:32.168 +01:00  INF]  Authorization was successful.
+[2022-03-15 13:41:32.169 +01:00  INF]  Executing endpoint '/ADMIN/Create'
+[2022-03-15 13:41:32.169 +01:00  INF]  Route matched with {page = "/ADMIN/Create", action = "", controller = ""}. Executing page /ADMIN/Create
+[2022-03-15 13:41:32.195 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.CreateModel.OnPostAsync - ModelState is "Valid"
+[2022-03-15 13:41:32.199 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:41:32.497 +01:00  INF]  Executed DbCommand (109ms) [Parameters=[@p0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Livres" ("Nom")
+VALUES (@p0);
+SELECT "LivreID"
+FROM "Livres"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+[2022-03-15 13:41:32.918 +01:00  INF]  Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+[2022-03-15 13:41:32.921 +01:00  INF]  Executing RedirectToPageResult, redirecting to ./ListeDesEnre.
+[2022-03-15 13:41:32.921 +01:00  INF]  Executed page /ADMIN/Create in 752.019ms
+[2022-03-15 13:41:32.921 +01:00  INF]  Executed endpoint '/ADMIN/Create'
+[2022-03-15 13:41:32.927 +01:00  INF]  Request finished in 767.2378ms 302 
+[2022-03-15 13:41:32.947 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 13:41:32.950 +01:00  INF]  Authorization was successful.
+[2022-03-15 13:41:32.950 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:41:32.950 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 13:41:32.952 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 13:41:32.953 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:41:32.970 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 13:41:32.973 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 13:41:32.973 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:41:32.973 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:41:32.989 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 38.431ms
+[2022-03-15 13:41:32.989 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:41:32.989 +01:00  INF]  Request finished in 42.8065ms 200 text/html; charset=utf-8
+[2022-03-15 13:47:22.551 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/  
+[2022-03-15 13:47:22.556 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-15 13:47:22.577 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-15 13:47:22.580 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-15 13:47:22.582 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-15 13:47:22.583 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:47:22.602 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:47:22.644 +01:00  INF]  Executed page /Index in 65.6294ms
+[2022-03-15 13:47:22.644 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-15 13:47:22.644 +01:00  INF]  Request finished in 93.2814ms 200 text/html; charset=utf-8
+[2022-03-15 13:47:23.257 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/css/bootstrap.min.css  
+[2022-03-15 13:47:23.341 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+[2022-03-15 13:47:23.341 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/css/site.css  
+[2022-03-15 13:47:23.341 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery/dist/jquery.min.js  
+[2022-03-15 13:47:23.427 +01:00  INF]  Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\css\site.css'
+[2022-03-15 13:47:23.427 +01:00  INF]  Request finished in 86.0737ms 200 text/css
+[2022-03-15 13:47:23.428 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+[2022-03-15 13:47:23.435 +01:00  INF]  Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\js\site.js'
+[2022-03-15 13:47:23.435 +01:00  INF]  Request finished in 7.0228ms 200 application/javascript
+[2022-03-15 13:47:23.702 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[2022-03-15 13:47:23.702 +01:00  INF]  Request finished in 445.0267ms 200 text/css
+[2022-03-15 13:47:23.809 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[2022-03-15 13:47:23.809 +01:00  INF]  Request finished in 468.2839ms 200 application/javascript
+[2022-03-15 13:47:23.820 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/im/background.png  
+[2022-03-15 13:47:23.898 +01:00  INF]  Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\jquery\dist\jquery.min.js'
+[2022-03-15 13:47:23.898 +01:00  INF]  Request finished in 557.0602ms 200 application/javascript
+[2022-03-15 13:47:24.444 +01:00  INF]  Sending file. Request path: '/im/background.png'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\im\background.png'
+[2022-03-15 13:47:24.445 +01:00  INF]  Request finished in 624.2344ms 200 image/png
+[2022-03-15 13:47:24.863 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/favicon.ico  
+[2022-03-15 13:47:24.943 +01:00  INF]  Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\favicon.ico'
+[2022-03-15 13:47:24.943 +01:00  INF]  Request finished in 79.8702ms 200 image/x-icon
+[2022-03-15 13:52:52.168 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 13:52:52.183 +01:00  INF]  Authorization was successful.
+[2022-03-15 13:52:52.183 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:52:52.184 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 13:52:52.186 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 13:52:52.188 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:52:52.230 +01:00  INF]  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 13:52:52.243 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 13:52:52.243 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:52:52.243 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:52:52.280 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 96.1459ms
+[2022-03-15 13:52:52.280 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 13:52:52.281 +01:00  INF]  Request finished in 112.6642ms 200 text/html; charset=utf-8
+[2022-03-15 13:52:52.417 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/favicon.ico  
+[2022-03-15 13:52:52.417 +01:00  INF]  The file /favicon.ico was not modified
+[2022-03-15 13:52:52.417 +01:00  INF]  Request finished in 0.9077ms 304 image/x-icon
+[2022-03-15 13:53:35.412 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/CRUDAPI  
+[2022-03-15 13:53:35.416 +01:00  INF]  Executing endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 13:53:35.602 +01:00  INF]  Route matched with {action = "Get", controller = "Livre2", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PrivacyDb.Models.Livre]] Get() on controller PrivacyDb.Controller.Livre2 (PrivacyDb).
+[2022-03-15 13:53:36.531 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 13:53:36.540 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 13:53:37.881 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PrivacyDb.Models.Livre, PrivacyDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-15 13:53:38.282 +01:00  INF]  Executed action PrivacyDb.Controller.Livre2.Get (PrivacyDb) in 2678.9714ms
+[2022-03-15 13:53:38.282 +01:00  INF]  Executed endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 13:53:38.282 +01:00  INF]  Request finished in 2870.0651ms 200 application/json; charset=utf-8
+[2022-03-15 13:53:38.532 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/favicon.ico  
+[2022-03-15 13:53:38.571 +01:00  INF]  Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\favicon.ico'
+[2022-03-15 13:53:38.572 +01:00  INF]  Request finished in 39.1002ms 200 image/x-icon
+[2022-03-15 13:53:44.319 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/  
+[2022-03-15 13:53:44.320 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-15 13:53:44.321 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-15 13:53:44.321 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-15 13:53:44.321 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-15 13:53:44.322 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 13:53:44.322 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 13:53:44.329 +01:00  INF]  Executed page /Index in 7.9783ms
+[2022-03-15 13:53:44.331 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-15 13:53:44.336 +01:00  INF]  Request finished in 12.6667ms 200 text/html; charset=utf-8
+[2022-03-15 13:53:44.380 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/css/bootstrap.min.css  
+[2022-03-15 13:53:44.381 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery/dist/jquery.min.js  
+[2022-03-15 13:53:44.395 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/css/site.css  
+[2022-03-15 13:53:44.406 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+[2022-03-15 13:53:44.422 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+[2022-03-15 13:53:44.467 +01:00  INF]  Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\css\site.css'
+[2022-03-15 13:53:44.467 +01:00  INF]  Request finished in 73.1804ms 200 text/css
+[2022-03-15 13:53:44.474 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[2022-03-15 13:53:44.474 +01:00  INF]  Request finished in 94.4769ms 200 text/css
+[2022-03-15 13:53:44.556 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/im/background.png  
+[2022-03-15 13:53:44.596 +01:00  INF]  Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\js\site.js'
+[2022-03-15 13:53:44.596 +01:00  INF]  Request finished in 190.1132ms 200 application/javascript
+[2022-03-15 13:53:44.845 +01:00  INF]  Sending file. Request path: '/im/background.png'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\im\background.png'
+[2022-03-15 13:53:44.845 +01:00  INF]  Request finished in 289.5835ms 200 image/png
+[2022-03-15 13:53:45.517 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[2022-03-15 13:53:45.518 +01:00  INF]  Request finished in 1095.5672ms 200 application/javascript
+[2022-03-15 13:53:45.534 +01:00  INF]  Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\jquery\dist\jquery.min.js'
+[2022-03-15 13:53:45.534 +01:00  INF]  Request finished in 1153.028ms 200 application/javascript
+[2022-03-15 14:00:48.610 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/CRUDAPI  
+[2022-03-15 14:00:48.615 +01:00  INF]  Executing endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:00:48.616 +01:00  INF]  Route matched with {action = "Get", controller = "Livre2", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PrivacyDb.Models.Livre]] Get() on controller PrivacyDb.Controller.Livre2 (PrivacyDb).
+[2022-03-15 14:00:48.618 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:00:48.876 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:00:48.972 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PrivacyDb.Models.Livre, PrivacyDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-15 14:00:48.974 +01:00  INF]  Executed action PrivacyDb.Controller.Livre2.Get (PrivacyDb) in 358.2079ms
+[2022-03-15 14:00:48.974 +01:00  INF]  Executed endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:00:48.975 +01:00  INF]  Request finished in 365.5736ms 200 application/json; charset=utf-8
+[2022-03-15 14:01:04.822 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN  
+[2022-03-15 14:01:04.823 +01:00  INF]  Executing endpoint '/ADMIN/Index'
+[2022-03-15 14:01:04.824 +01:00  INF]  Route matched with {page = "/ADMIN/Index", action = "", controller = ""}. Executing page /ADMIN/Index
+[2022-03-15 14:01:04.824 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel1.OnGet - ModelState is "Valid"
+[2022-03-15 14:01:04.825 +01:00  INF]  Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:01:04.851 +01:00  INF]  Executed page /ADMIN/Index in 27.1587ms
+[2022-03-15 14:01:04.851 +01:00  INF]  Executed endpoint '/ADMIN/Index'
+[2022-03-15 14:01:04.851 +01:00  INF]  Request finished in 29.3972ms 200 text/html; charset=utf-8
+[2022-03-15 14:01:10.422 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:8177/ADMIN application/x-www-form-urlencoded 207
+[2022-03-15 14:01:10.426 +01:00  INF]  Executing endpoint '/ADMIN/Index'
+[2022-03-15 14:01:10.426 +01:00  INF]  Route matched with {page = "/ADMIN/Index", action = "", controller = ""}. Executing page /ADMIN/Index
+[2022-03-15 14:01:10.433 +01:00  INF]  Executing handler method PrivacyDb.Pages.IndexModel1.OnPost - ModelState is "Valid"
+[2022-03-15 14:01:10.435 +01:00  INF]  AuthenticationScheme: Cookies signed in.
+[2022-03-15 14:01:10.435 +01:00  INF]  Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+[2022-03-15 14:01:10.438 +01:00  INF]  Executing RedirectResult, redirecting to /ADMIN/ListeDesEnre.
+[2022-03-15 14:01:10.439 +01:00  INF]  Executed page /ADMIN/Index in 12.2174ms
+[2022-03-15 14:01:10.439 +01:00  INF]  Executed endpoint '/ADMIN/Index'
+[2022-03-15 14:01:10.449 +01:00  INF]  Request finished in 26.4188ms 302 
+[2022-03-15 14:01:10.527 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 14:01:10.530 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:01:10.530 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:01:10.531 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 14:01:10.533 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 14:01:10.535 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:01:10.554 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:01:10.569 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 14:01:10.569 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 14:01:10.569 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:01:10.594 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 62.4098ms
+[2022-03-15 14:01:10.594 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:01:10.597 +01:00  INF]  Request finished in 70.1153ms 200 text/html; charset=utf-8
+[2022-03-15 14:01:12.767 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/Delete?id=3  
+[2022-03-15 14:01:12.805 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:01:12.805 +01:00  INF]  Executing endpoint '/ADMIN/Delete'
+[2022-03-15 14:01:12.815 +01:00  INF]  Route matched with {page = "/ADMIN/Delete", action = "", controller = ""}. Executing page /ADMIN/Delete
+[2022-03-15 14:01:12.866 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.DeleteModel.OnGetAsync - ModelState is "Valid"
+[2022-03-15 14:01:12.872 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:01:13.306 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+WHERE "l"."LivreID" = @__id_0
+LIMIT 1
+[2022-03-15 14:01:13.386 +01:00  INF]  Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:01:20.281 +01:00  INF]  Executed page /ADMIN/Delete in 7466.1579ms
+[2022-03-15 14:01:20.281 +01:00  INF]  Executed endpoint '/ADMIN/Delete'
+[2022-03-15 14:01:20.281 +01:00  INF]  Request finished in 7514.3119ms 200 text/html; charset=utf-8
+[2022-03-15 14:01:24.250 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:8177/ADMIN/Delete?id=3 application/x-www-form-urlencoded 241
+[2022-03-15 14:01:24.252 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:01:24.253 +01:00  INF]  Executing endpoint '/ADMIN/Delete'
+[2022-03-15 14:01:24.257 +01:00  INF]  Route matched with {page = "/ADMIN/Delete", action = "", controller = ""}. Executing page /ADMIN/Delete
+[2022-03-15 14:01:24.301 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.DeleteModel.OnPostAsync - ModelState is "Valid"
+[2022-03-15 14:01:24.316 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:01:24.594 +01:00  INF]  Executed DbCommand (76ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+WHERE "l"."LivreID" = @__p_0
+LIMIT 1
+[2022-03-15 14:01:24.773 +01:00  INF]  Executed DbCommand (122ms) [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Livres"
+WHERE "LivreID" = @p0;
+SELECT changes();
+[2022-03-15 14:01:25.159 +01:00  INF]  Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+[2022-03-15 14:01:25.160 +01:00  INF]  Executing RedirectToPageResult, redirecting to ./ListeDesEnre.
+[2022-03-15 14:01:25.160 +01:00  INF]  Executed page /ADMIN/Delete in 902.9888ms
+[2022-03-15 14:01:25.160 +01:00  INF]  Executed endpoint '/ADMIN/Delete'
+[2022-03-15 14:01:25.161 +01:00  INF]  Request finished in 910.8474ms 302 
+[2022-03-15 14:01:25.168 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 14:01:25.169 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:01:25.169 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:01:25.169 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 14:01:25.171 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 14:01:25.172 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:01:25.346 +01:00  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:01:25.350 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 14:01:25.350 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 14:01:25.350 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:01:25.360 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 190.8535ms
+[2022-03-15 14:01:25.360 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:01:25.361 +01:00  INF]  Request finished in 193.1417ms 200 text/html; charset=utf-8
+[2022-03-15 14:02:15.757 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/CRUDAPI  
+[2022-03-15 14:02:15.767 +01:00  INF]  Executing endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:02:15.768 +01:00  INF]  Route matched with {action = "Get", controller = "Livre2", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PrivacyDb.Models.Livre]] Get() on controller PrivacyDb.Controller.Livre2 (PrivacyDb).
+[2022-03-15 14:02:15.788 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:02:15.905 +01:00  INF]  Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:02:15.951 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PrivacyDb.Models.Livre, PrivacyDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-15 14:02:16.001 +01:00  INF]  Executed action PrivacyDb.Controller.Livre2.Get (PrivacyDb) in 232.7075ms
+[2022-03-15 14:02:16.001 +01:00  INF]  Executed endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:02:16.019 +01:00  INF]  Request finished in 244.8976ms 200 application/json; charset=utf-8
+[2022-03-15 14:12:47.392 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/Create  
+[2022-03-15 14:12:47.402 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:12:47.402 +01:00  INF]  Executing endpoint '/ADMIN/Create'
+[2022-03-15 14:12:47.402 +01:00  INF]  Route matched with {page = "/ADMIN/Create", action = "", controller = ""}. Executing page /ADMIN/Create
+[2022-03-15 14:12:47.404 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.CreateModel.OnGet - ModelState is "Valid"
+[2022-03-15 14:12:47.404 +01:00  INF]  Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:12:47.465 +01:00  INF]  Executed page /ADMIN/Create in 62.991ms
+[2022-03-15 14:12:47.465 +01:00  INF]  Executed endpoint '/ADMIN/Create'
+[2022-03-15 14:12:47.466 +01:00  INF]  Request finished in 73.5959ms 200 text/html; charset=utf-8
+[2022-03-15 14:12:47.505 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery-validation/dist/jquery.validate.min.js  
+[2022-03-15 14:12:47.555 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+[2022-03-15 14:12:50.202 +01:00  INF]  Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+[2022-03-15 14:12:50.208 +01:00  INF]  Request finished in 2653.2905ms 200 application/javascript
+[2022-03-15 14:12:50.222 +01:00  INF]  Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\admin\source\repos\PrivacyDb\PrivacyDb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+[2022-03-15 14:12:50.222 +01:00  INF]  Request finished in 2716.9937ms 200 application/javascript
+[2022-03-15 14:12:54.767 +01:00  INF]  Request starting HTTP/1.1 POST http://localhost:8177/ADMIN/Create application/x-www-form-urlencoded 243
+[2022-03-15 14:12:54.768 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:12:54.769 +01:00  INF]  Executing endpoint '/ADMIN/Create'
+[2022-03-15 14:12:54.769 +01:00  INF]  Route matched with {page = "/ADMIN/Create", action = "", controller = ""}. Executing page /ADMIN/Create
+[2022-03-15 14:12:54.771 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.CreateModel.OnPostAsync - ModelState is "Valid"
+[2022-03-15 14:12:54.772 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:12:54.952 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Livres" ("Nom")
+VALUES (@p0);
+SELECT "LivreID"
+FROM "Livres"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+[2022-03-15 14:12:55.784 +01:00  INF]  Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+[2022-03-15 14:12:55.784 +01:00  INF]  Executing RedirectToPageResult, redirecting to ./ListeDesEnre.
+[2022-03-15 14:12:55.785 +01:00  INF]  Executed page /ADMIN/Create in 1015.839ms
+[2022-03-15 14:12:55.785 +01:00  INF]  Executed endpoint '/ADMIN/Create'
+[2022-03-15 14:12:55.786 +01:00  INF]  Request finished in 1019.6198ms 302 
+[2022-03-15 14:12:55.829 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/ADMIN/ListeDesEnre  
+[2022-03-15 14:12:55.835 +01:00  INF]  Authorization was successful.
+[2022-03-15 14:12:55.835 +01:00  INF]  Executing endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:12:55.836 +01:00  INF]  Route matched with {page = "/ADMIN/ListeDesEnre", action = "", controller = ""}. Executing page /ADMIN/ListeDesEnre
+[2022-03-15 14:12:55.836 +01:00  INF]  Executing handler method PrivacyDb.Pages.ADMIN.ListeDesEnre.OnGetAsync - ModelState is "Valid"
+[2022-03-15 14:12:55.837 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:12:55.975 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:12:55.981 +01:00  INF]  Executed handler method OnGetAsync, returned result .
+[2022-03-15 14:12:55.981 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-15 14:12:55.981 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-15 14:12:55.992 +01:00  INF]  Executed page /ADMIN/ListeDesEnre in 155.8287ms
+[2022-03-15 14:12:55.992 +01:00  INF]  Executed endpoint '/ADMIN/ListeDesEnre'
+[2022-03-15 14:12:55.992 +01:00  INF]  Request finished in 163.4541ms 200 text/html; charset=utf-8
+[2022-03-15 14:13:22.762 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:8177/CRUDAPI  
+[2022-03-15 14:13:22.763 +01:00  INF]  Executing endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:13:22.764 +01:00  INF]  Route matched with {action = "Get", controller = "Livre2", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[PrivacyDb.Models.Livre]] Get() on controller PrivacyDb.Controller.Livre2 (PrivacyDb).
+[2022-03-15 14:13:22.768 +01:00  INF]  Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+[2022-03-15 14:13:22.791 +01:00  INF]  Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+[2022-03-15 14:13:22.836 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PrivacyDb.Models.Livre, PrivacyDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-15 14:13:22.852 +01:00  INF]  Executed action PrivacyDb.Controller.Livre2.Get (PrivacyDb) in 88.2806ms
+[2022-03-15 14:13:22.852 +01:00  INF]  Executed endpoint 'PrivacyDb.Controller.Livre2.Get (PrivacyDb)'
+[2022-03-15 14:13:22.853 +01:00  INF]  Request finished in 90.7492ms 200 application/json; charset=utf-8
